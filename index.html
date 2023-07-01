@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container__header">
+            <h1 class="container__h1" id="h1">Целых <span id="n5">0</span> задач на сегодня!</h1>
+        <div class="container__list">
+            <ul class="container__ul" id="ul">
+                
+            </ul>
+            <div class="container__h2" >
+                <h2 id="h2">Список дел пуст</h2>
+            </div>
+        </div>
+        <div class="container__footer">
+            <div class="container__footer__header">
+                <h2 class="container__footer__header__addnewtask">Добавить новую задачу</h2>
+            </div>
+            
+            <input type="text" placeholder="Текст задачи" class="container__footer__input" id="inp">
+            <p class="container__footer__p">Что делаем, какой результат получаем</p>
+            <button class="container__footer__btn" id="btn">Добавить</button>
+            <button id="deleteAllLi" class="container__footer__deleteAllLi">Удалить все задачи</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
